@@ -1,0 +1,45 @@
+footer {
+  background-color: #555759;
+  text-align: center;
+  padding: 50px 0;
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+}
+footer p {
+  margin: 0;
+}
+.whatsapp-icon {
+  width: 40px;
+}
+.message-icon {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  justify-content: center;
+  margin-top: 10px;
+  height: 40px;
+}
+.message {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 10px;
+}
+.whatsapp-container {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.number {
+  cursor: pointer;
+  transition: 0.3s;
+  color: lightgreen;
+}
+
+@media (max-width: 700px) {
+  .message {
+    display: flex;
+    flex-direction: column;
+  }
+}
